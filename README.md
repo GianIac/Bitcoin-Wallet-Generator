@@ -29,3 +29,11 @@ Start Application:
 >> python app.py
 
 The application will be accessible at: http://127.0.0.1:5000/
+
+# Contribute
+If You want you are invited to contribute to the project by suggesting improvements, reporting bugs or creating pull requests. To contribute, follow these steps:
+<li>Fork the project</li>
+<li>Create a new branch: git checkout -b branch-name.</li>
+<li>Make your changes and commit: git commit -am 'Add some changes'.</li>
+<li>Pusha al branch: git push origin nome-branch.</li>
+<li>Crea una nuova Pull Request.</li>
