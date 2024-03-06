@@ -35,5 +35,5 @@ If You want you are invited to contribute to the project by suggesting improveme
 <li>Fork the project</li>
 <li>Create a new branch: git checkout -b branch-name.</li>
 <li>Make your changes and commit: git commit -am 'Add some changes'.</li>
-<li>Pusha al branch: git push origin nome-branch.</li>
-<li>Crea una nuova Pull Request.</li>
+<li>Push to branch: git push origin branch-name.</li>
+<li>Create a new Pull Request</li>
