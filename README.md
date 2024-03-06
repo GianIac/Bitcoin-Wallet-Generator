@@ -20,7 +20,7 @@ Link: www.////////
 
 # Installation
 Clone GitHub Repository:
->> git clone <repo-URL>
+>> git clone "repo-URL"
 
 Install Requirements:
 >> pip install -r requirements.txt
