@@ -1,7 +1,9 @@
 # ₿itcoin Wallet Generator
 This simple project allows users to generate a new Bitcoin wallet, with the relatives QR codes for public and privates keys. Everything is contained in a simple web application based on flask and python.
 
-<h4>Characteristics</h4>
+Link: www.////////
+
+<h4>Features</h4>
 <li>Generate a new Bitcoin Wallets</li>
 <li>Display of public and private keys + QR codes.</li>
 <li>Simple and lightweight architecture, ideal for learning and a basis for more complex projects.</li>
@@ -27,4 +29,3 @@ Start Application:
 >> python app.py
 
 The application will be accessible at: http://127.0.0.1:5000/
-
