@@ -7,7 +7,7 @@ Link: www.////////
 <li>Generate a new Bitcoin Wallets</li>
 <li>Display of public and private keys + QR codes.</li>
 <li>Simple and lightweight architecture, ideal for learning and a basis for more complex projects.</li>
-<h4>Technologies</h4>
+<h4>Technologies Used</h4>
 <li>Python</li>
 <li>Flask</li>
 <li>Bitcoinlib</li>
