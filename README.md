@@ -5,7 +5,7 @@ This simple project allows users to generate a new Bitcoin wallet, with the rela
 <img width="960" alt="image" src="https://github.com/GianIac/Bitcoin-Wallet-Generator/assets/80957309/2ac118b0-8706-459d-9445-a07dfa7472f1">
 <img width="959" alt="image" src="https://github.com/GianIac/Bitcoin-Wallet-Generator/assets/80957309/37aa8482-e4df-4904-9279-791070c91a59">
 
-<h5>Characteristics</h5>
+<h4>Characteristics</h4>
 <li>Generate a new Bitcoin Wallets</li>
 <li>Display of public and private keys + QR codes.</li>
 <li>Simple and lightweight architecture, ideal for learning and a basis for more complex projects.</li>
