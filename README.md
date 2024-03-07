@@ -12,7 +12,7 @@ This simple project allows users to generate a new Bitcoin wallet, with the rela
 <li>QRCode</li>
 <br>
 <img width="959" alt="image" src="https://github.com/GianIac/Bitcoin-Wallet-Generator/assets/80957309/e455d7e9-3a4b-420c-8699-f3d487a46b19">
-<img width="960" alt="image" src="https://github.com/GianIac/Bitcoin-Wallet-Generator/assets/80957309/2ac118b0-8706-459d-9445-a07dfa7472f1">
+<img width="958" alt="image" src="https://github.com/GianIac/Bitcoin-Wallet-Generator/assets/80957309/900af7a5-7315-414d-936d-54e7681dee5b">
 <img width="959" alt="image" src="https://github.com/GianIac/Bitcoin-Wallet-Generator/assets/80957309/37aa8482-e4df-4904-9279-791070c91a59">
 <br>
 
