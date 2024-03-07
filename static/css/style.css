@@ -1,0 +1,141 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #f7f7f7;
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+}
+
+h1 {
+    color: #f7931a;
+    background: linear-gradient(45deg, #f7931a, #ffbf00);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    margin: 20px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"], button {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: calc(100% - 40px);
+}
+
+input[type="text"] {
+    border: 2px solid #f7931a;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+input[type="text"]:focus {
+    border-color: #ffbf00;
+    box-shadow: 0 0 10px #ffbf00;
+}
+
+button {
+    background-color: #f7931a;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover, button:focus {
+    background-color: #ffbf00;
+    transform: translateY(-2px);
+}
+
+img {
+    width: 150px;
+    padding: 8px;
+    border: 2px solid #f7931a;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s;
+}
+
+img:hover {
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.public-key, .private-key {
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 12px;
+    transition: transform 0.3s;
+}
+
+.public-key:hover, .private-key:hover {
+    transform: scale(1.05);
+}
+
+.message-box {
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    width: calc(100% - 40px);
+    margin: 10px auto;
+    transition: transform 0.3s;
+}
+
+.success {
+    background-color: #4CAF50;
+}
+
+.error {
+    background-color: #f44336;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    input[type="text"], button {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    input[type="text"], button {
+        font-size: 0.8rem;
+    }
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.icon img {
+    width: 32px; /* Smaller size for the GitHub icon */
+    vertical-align: middle;
+    border: 0;
+}
+
+.icon-text {
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 8px;
+}

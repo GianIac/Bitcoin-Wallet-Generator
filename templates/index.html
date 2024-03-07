@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bitcoin Wallet Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='img/logo_nobg.png') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>₿itcoin Wallet Generator</h1>
+        <a href="https://github.com/GianIac/Bitcoin-Wallet-Generator" target="_blank" class="icon">
+            <img src="{{ url_for('static', filename='img/github.png') }}" alt="GitHub">
+            <span class="icon-text">GitHub Repository</span>
+        </a>
+        <form method="POST">
+            <input id="inputBox" type="text" name="wallet_name" placeholder="Enter wallet name" required>
+            <button type="+">Generate Wallet</button>
+        </form>
+        {% with messages = get_flashed_messages(with_categories=true) %}
+          {% if messages %}
+            {% for category, message in messages %}
+                <div class="message-box {{ category }}">{{ message }}</div>
+            {% endfor %}
+          {% endif %}
+        {% endwith %}
+        {% if wallet %}
+            <div class="wallet-info">
+                <div>
+                    <img src="{{ url_for('static', filename='public_key_qr.png') }}" alt="Public Key QR">
+                    <p class="public-key">PUBLIC KEY: {{ wallet.public_key_converted }}</p>
+                </div>
+                <div>
+                    <img src="{{ url_for('static', filename='private_key_qr.png') }}" alt="Private Key QR">
+                    <p class="private-key">PRIVATE KEY (not share): {{ wallet.private_key_converted }}</p>
+                </div>
+            </div>
+        {% endif %}
+    </div>
+</body>
+<footer>
+</footer>
+</html>
